@@ -23,24 +23,36 @@ html {
     align-items: center;
 }
 
-
 .container__content {
     height: 60%;
     padding-left: 20vw;
     padding-right: 20vw;
     background-color: #08194a;
     color: #ffffff;
+    font-size: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.article__header {
-    color: #ffffff91;
+.container__article {
+    margin-right: 20px;
+    max-height: 80%;
+    width: 60%;
 }
 
-.container__article {
+.article__header {
+    color: #ffffff91;
+    font-size: 25px;
 }
+
+.article__paragraph {
+    font-weight: 400;
+}
+
+
+
+
 
 
 .form__input {
