@@ -6,11 +6,12 @@
     <title>Form project</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="normalize.css.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;700&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <div class="container">
-      <div class="container__form">
+      <div class="container__content">
         <div class="containter__article">
           <article class="article">
             <h1 class="article__header">
@@ -27,7 +28,7 @@
           <form>
             <p>
               <label>
-                <input name="name" placeholder="Name" type="text" />
+                <input name="name" placeholder="Name" type="text" class="form__input" />
               </label>
             </p>
             <p>
@@ -35,13 +36,13 @@
                 <input
                   name="phone-number"
                   placeholder="Phone number"
-                  type="number"
+                  type="number" class="form__input"
                 />
               </label>
             </p>
             <p>
               <label>
-                <input name="e-mail" placeholder="E-mail" type="email" />
+                <input name="e-mail" placeholder="E-mail" type="email" class="form__input" />
               </label>
             </p>
             <p>
@@ -57,7 +58,7 @@
             </p>
             <p>
               <label>
-                <input name="enquiry" placeholder="Your enquiry" type="text" />
+                <input name="enquiry" placeholder="Your enquiry" type="text" class="form__input" />
               </label>
             </p>
           </form>
@@ -80,10 +81,10 @@
           <h3 class="social__header">Social Media</h3>
           <div class="social__icons">
             <a href="https://github.com/karolinarojecka"
-              ><img src="github-logo.png" alt="github-logo"
+              ><img src="github-logo.png" alt="github-logo"  class="social__icons--style"
             /></a>
             <a href="https://www.linkedin.com/in/karolinakasperuk/"
-              ><img src="linkedin-logo.png" alt="linkedin-logo"
+              ><img src="linkedin-logo.png" alt="linkedin-logo" class="social__icons--style"
             /></a>
           </div>
         </div>

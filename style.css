@@ -6,6 +6,72 @@ html {
     box-sizing: inherit;
 }
 
+.container {
+    font-family: 'Inconsolata', monospace;
+    margin: 20px;
+    height: 100vh;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container__content {
+    height: 60%;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    background-color: #08194a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__article {
+}
+
+.container__form {
+}
+
+.form__input {
+    color: #ffffff00;
+    width: 200px;
+    letter-spacing: 1px;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    background-color: #ffffff00;
+    cursor: text;
+    margin: 0em;
+    font-family: inherit;
+    font-size: 80%;
+    padding: 2px;
+    border-color: #ffffff00;
+    border-bottom: 1px solid #ffffff6a
+}
+
+.form__label {
+    width: 185px;
+}
+
+.article__header {
+    color: #ffffff91;
+}
 
 
 
+
+.social__icons--style {
+    width: 30px;
+    height: 30px;
+}
