@@ -25,10 +25,10 @@
           </article>
         </div>
         <div class="container__form">
-          <form>
+          <form method="post" action="">
             <p>
               <label>
-                <input name="name" placeholder="Name" type="text" class="form__input" />
+                <input name="name" placeholder="Name" type="text" class="form__input" pattern="[a-zA-Z0-9]+"/>
               </label>
             </p>
             <p>
@@ -36,13 +36,13 @@
                 <input
                   name="phone-number"
                   placeholder="Phone number"
-                  type="number" class="form__input"
+                  type="number" class="form__input" pattern="\d{3}[\-]\d{3}[\-]\d{3}"
                 />
               </label>
             </p>
             <p>
               <label>
-                <input name="e-mail" placeholder="E-mail" type="email" class="form__input" />
+                <input name="e-mail" placeholder="E-mail" type="email" class="form__input" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"/>
               </label>
             </p>
             <p>
@@ -59,6 +59,11 @@
             <p>
               <label>
                 <input name="enquiry" placeholder="Your enquiry" type="text" class="form__input" />
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="submit" value="Send" class="button"/>
               </label>
             </p>
           </form>

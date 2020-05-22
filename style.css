@@ -35,14 +35,16 @@ html {
     align-items: center;
 }
 
+.article__header {
+    color: #ffffff91;
+}
+
 .container__article {
 }
 
-.container__form {
-}
 
 .form__input {
-    color: #ffffff00;
+    color: #ffffff7a;
     width: 200px;
     letter-spacing: 1px;
     text-transform: none;
@@ -79,11 +81,17 @@ html {
     color: #dddddd7a;
 }
 
-.article__header {
-    color: #ffffff91;
+.button {
+        padding:5px 15px;
+        font-family: inherit;
+        font-size: 80%;
+        letter-spacing: 1px;
+        color: #dddddd7a;
+        background:rgba(204, 204, 204, 0); 
+        border: 1px solid #ffffff6a;
+        cursor:pointer;
+        border-radius: 1px; 
 }
-
-
 
 
 .social__icons--style {
