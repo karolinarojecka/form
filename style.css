@@ -60,8 +60,23 @@ html {
     border-bottom: 1px solid #ffffff6a
 }
 
-.form__label {
-    width: 185px;
+.form__input::placeholder {
+    color: #dddddd7a;
+}
+
+.form__select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;  
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #ffffff6a;
+    background-color: #ffffff00;
+    padding: 2px;
+    letter-spacing: 1px;
+    font-family: inherit;
+    font-size: 80%;
+    color: #dddddd7a;
 }
 
 .article__header {
