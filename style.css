@@ -115,13 +115,14 @@ html {
 
 
 .container__contact {
-    height: 40%;
     width: 100%;
-    padding: 0 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: #ffffff;
     font-size: 15px;
     background-color: #f53851;
     display: grid;
+    justify-content: center;
     grid-template-rows: 1fr 2fr;
     grid-template-columns: 225px 225px;
     grid-template-areas: "header header"
